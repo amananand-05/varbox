@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: varbox
+Version: 2.0
+Summary: varbox package can be used to dump and load multiple variables through local file and can also be used as encryption vault
+Author: Aman Anand
+Author-email: amananandofficials@gmail.com
+Keywords: varbox dump,varbox load,varbox pickle load,varbox pickle dump,varbox,variable dump,encryption,encryptor
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8.8
