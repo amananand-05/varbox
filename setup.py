@@ -1,11 +1,16 @@
 from setuptools import setup
 import setuptools
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
     name='varbox',
-    version='2.0',
+    version='3.0',
     description='varbox package can be used to dump and load multiple variables through local file and can also be used as encryption vault',
     author= 'Aman Anand',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author_email='amananandofficials@gmail.com',
     keywords=['varbox dump', 'varbox load', 'varbox pickle load', 'varbox pickle dump','varbox','variable dump','encryption',"encryptor"],
     classifiers=[
